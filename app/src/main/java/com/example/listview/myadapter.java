@@ -48,11 +48,13 @@ public class myadapter extends BaseAdapter {
 
         ImageView item_img = v.findViewById(R.id.item_img);
         TextView item_text = v.findViewById(R.id.item_tv);
+        TextView item_text2 = v.findViewById(R.id.item_description);
 
         item_obj item =  getItem(position);
 
         item_img.setImageResource(item.getImg());
         item_text.setText(item.getTitle());
+        item_text2.setText(item.getDescription());
 
         return v;
     }

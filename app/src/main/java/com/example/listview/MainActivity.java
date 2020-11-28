@@ -19,11 +19,15 @@ public class MainActivity extends AppCompatActivity {
 
         ArrayList <item_obj> list_item = new ArrayList<>();
 
-        list_item.add(new item_obj(R.drawable.facebook ,"Facebook"));
-        list_item.add(new item_obj(R.drawable.twitter ,"Twitter"));
-        list_item.add(new item_obj(R.drawable.instagram ,"Instagram"));
-        list_item.add(new item_obj(R.drawable.whatsapp ,"Whatsapp"));
-        list_item.add(new item_obj(R.drawable.snapchat ,"Snapchat"));
+        list_item.add(new item_obj(R.drawable.profile,"Mohamed Mmdouh" , "01123780390"));
+        list_item.add(new item_obj(R.drawable.profile,"Ahmed Mmdouh" , "0112000555"));
+        list_item.add(new item_obj(R.drawable.profile,"Mahmoud Mmdouh" , "0112000333"));
+        list_item.add(new item_obj(R.drawable.profile,"Sara Ahmed" , "0112000444"));
+        list_item.add(new item_obj(R.drawable.profile , "Fareda Mohamed" ,"0112000555"));
+        list_item.add(new item_obj(R.drawable.profile , "Ahmed Mohamed" ,"0112000666"));
+        list_item.add(new item_obj(R.drawable.profile , "Adam Mohamed" ,"0112000777"));
+        list_item.add(new item_obj(R.drawable.profile , "Ali Mohamed" ,"0112000888"));
+
 
         myadapter adapter = new myadapter(list_item , this);
 

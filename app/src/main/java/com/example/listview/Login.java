@@ -24,10 +24,10 @@ public class Login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        username = findViewById(R.id.username_et);
-        password = findViewById(R.id.password_et);
+
         login = findViewById(R.id.login_btn);
 
+        /*
         ArrayList<String> users = new ArrayList<>();
         users.add("mohamed_mmdouh");
         users.add("mmdouh156");
@@ -37,6 +37,7 @@ public class Login extends AppCompatActivity {
         ArrayAdapter<String> items = new ArrayAdapter<>(this , android.R.layout.simple_dropdown_item_1line , users);
         username.setAdapter(items);
 
+       */
 
         login.setOnClickListener(new View.OnClickListener() {
             @Override
